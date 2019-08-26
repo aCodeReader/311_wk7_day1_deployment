@@ -13,7 +13,7 @@ app.use('/users', usersRouter)
 app.use('/auth', authRouter)
 
 app.get('/', (req, res) => {
-  res.send('So Easy A CAVE MAN CAN DID IT o->-< ')
+  res.send('So Easy A CAVE MAN DID IT o->-< ')
 })
 
 app.listen(port, () => {
